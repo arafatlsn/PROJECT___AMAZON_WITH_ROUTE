@@ -1,0 +1,12 @@
+.card-container-div{
+  width: 274px;
+  height: 373px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-img-div{
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
