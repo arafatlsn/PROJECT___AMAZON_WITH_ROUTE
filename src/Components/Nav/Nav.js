@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div className='grid md:grid-cols-12 items-center py-4 px-5' style={{backgroundColor: '#EAEDED'}}>
+    <div className='grid md:grid-cols-12 items-center py-4 px-5 sticky top-0 z-50' style={{backgroundColor: '#EAEDED'}}>
       
 
         <div className='nav-logo-side col-start-1 col-end-4 lg:col-end-3'>
@@ -19,7 +19,6 @@ const Nav = () => {
         <div className='col-start-10 col-end-13 flex items-center ml-10'>
             <Link to={'/home'} className='text-xl font-semibold mx-2'>Home</Link>
             <Link to={'/products'} className='text-xl font-semibold mx-2'>Products</Link>
-            <Link to={'/order-review'} className='text-xl font-semibold mx-2'>Order Review</Link>
             <Link to={'/cart'} className='text-2xl font-semibold mx-2'><BsCart3></BsCart3></Link>
         </div>
 
